@@ -771,6 +771,7 @@ public:
 
     Array<value_type>& operator =(const Array<value_type>& other){
         this->arrayRef = other.arrayRef;
+        return *this;
     }
 
     Array(){
